@@ -9,6 +9,8 @@ public class Exam6 {
 		char value2 = '가';
 		char value3 = '3'; // 숫자가 아닌 문자 3
 		
+		
+		
 		System.out.println(value1);
 		System.out.println(value2);
 		System.out.println(value3);
