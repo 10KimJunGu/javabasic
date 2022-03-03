@@ -89,8 +89,8 @@ public class Exam7 {
 		}
 		System.out.println("합계" + sum);
 		System.out.println("평균" + avg);
-		System.out.println();
-		System.out.println();
+		System.out.println("최대" + max);
+		System.out.println("최소" + min);
 		
 		
 		
