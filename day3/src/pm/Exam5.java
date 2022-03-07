@@ -91,9 +91,12 @@ public class Exam5 {
 		
 //		Scanner sc = new Scanner(System.in);
 //		
-//		System.out.println("숫자 a 입력 >>> "); int a = sc.nextInt();
-//		System.out.println("숫자 b 입력 >>> "); int b = sc.nextInt();
-//		System.out.println("숫자 c 입력 >>> "); int c = sc.nextInt();
+//		System.out.println("숫자 a 입력 >>> "); 
+//		int a = sc.nextInt();
+//		System.out.println("숫자 b 입력 >>> "); 
+//		int b = sc.nextInt();
+//		System.out.println("숫자 c 입력 >>> "); 
+//		int c = sc.nextInt();
 //		
 //		int min = a;
 //		if(b < min) min = b;

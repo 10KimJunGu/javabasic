@@ -33,7 +33,7 @@ public class Exam1 {
 //		int a = 0;
 //		while(a < 10) {
 //			System.out.println(a + " ");
-//			a++
+//			a++;
 //		}
 //		System.out.println();
 		
@@ -50,7 +50,7 @@ public class Exam1 {
 //				break;
 //			}
 //			System.out.println(c);
-//			c++
+//			c++;
 //		}
 //		
 		
@@ -106,7 +106,7 @@ public class Exam1 {
 //		System.out.print(a + " ");
 //		a++;
 //	}
-//	
+////	
 //	System.out.println();
 //	//do~while
 //	a = 0;
@@ -131,16 +131,16 @@ public class Exam1 {
 //		}
 //	}
 		
-	int i = 0;
-	while(i<3) {
-		int j = 0;
-		while(j<5) {
-			System.out.println(i);
-			j++;
-		}
-		i++;              //while은 필연적으로 증감이 필요함
-	}
-	
+//	int i = 0;
+//	while(i<3) {
+//		int j = 0;
+//		while(j<5) {
+//			System.out.println(i);
+//			j++;
+//		}
+//		i++;              //while은 필연적으로 증감이 필요함
+//	}
+//	
 	
 	
 	

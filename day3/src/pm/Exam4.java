@@ -30,9 +30,9 @@ public class Exam4 {
 //		Scanner sc = new Scanner(System.in);
 //		System.out.println("숫자를 하나 입력하세요.>>>");
 //		
-//		int inp = sc.nextInt();
+//		int num = sc.nextInt();
 //		
-//		if (inp == 0) {
+//		if (num == 0) {
 //			System.out.println("입력하신 숫자는 0 입니다.");
 //		}else {
 //			System.out.println("입력하신 숫자는 0이 아닙니다.");

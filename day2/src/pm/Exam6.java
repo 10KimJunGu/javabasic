@@ -160,7 +160,7 @@ public class Exam6 {
 //		String [] names = {"홍길동", "이몽룡","성춘향"};
 //		int [] numbers = {1,2,3,4,5};
 //		
-//		for (string name : names) {
+//		for (String name : names) {
 //			System.out.println(name);
 //		}
 		
