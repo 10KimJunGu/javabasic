@@ -139,7 +139,7 @@ public class Exam6 {
 //			System.out.println(i);
 //			
 //		}
-		
+//		
 		
 		
 		// 이중 for문

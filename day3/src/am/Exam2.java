@@ -197,34 +197,34 @@ public class Exam2 {
 		
 		//민병헌
 		
-		stop:
-		while(true) {
-			System.out.println("1.빅맥");
-			System.out.println("2.타코");
-			System.out.println("3.백반");
-			
-			System.out.println("메뉴를 선택하세요(0번은 종료)");
-			Scanner sc = new Scanner(System.in);
-			int choice = sc.nextInt();
-			switch(choice) {
-			case 0 :
-				break stop;
-			case 1:
-				System.out.println("빅맥를 주문하였습니다.");
-				continue;
-			case 2:
-				System.out.println("타코를 주문하였습니다.");
-				continue;
-			case 3:
-				System.out.println("백반를 주문하였습니다.");
-				continue;
-			default:
-				System.out.println("없는 번호입니다.");
-			}
-		}
-		System.out.println("프로그림을 종료합니다.");
-		
-		
+//		stop:
+//		while(true) {
+//			System.out.println("1.빅맥");
+//			System.out.println("2.타코");
+//			System.out.println("3.백반");
+//			
+//			System.out.println("메뉴를 선택하세요(0번은 종료)");
+//			Scanner sc = new Scanner(System.in);
+//			int choice = sc.nextInt();
+//			switch(choice) {
+//			case 0 :
+//				break stop;
+//			case 1:
+//				System.out.println("빅맥를 주문하였습니다.");
+//				continue;
+//			case 2:
+//				System.out.println("타코를 주문하였습니다.");
+//				continue;
+//			case 3:
+//				System.out.println("백반를 주문하였습니다.");
+//				continue;
+//			default:
+//				System.out.println("없는 번호입니다.");
+//			}
+//		}
+//		System.out.println("프로그림을 종료합니다.");
+//		
+//		
 		
 		
 		

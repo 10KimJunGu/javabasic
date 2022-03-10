@@ -12,8 +12,8 @@ public class Exam5 {
 //		array1[2] = 5;
 //		
 //		System.out.println(array1[0] + " " + array1[1] + " " + array1[2] + " ");
-//		
-//		
+////		
+////		
 //		
 //		
 //		
@@ -32,13 +32,13 @@ public class Exam5 {
 //		array2[2] = 5;
 //		
 //		System.out.println(array2[0] + " " + array2[1] + " " + array2[2] + " ");
-//		
+		
 //		
 //		System.out.println();
 //		System.out.println();
 //
 //		
-//		
+//			
 //		
 //		
 //		
@@ -80,61 +80,61 @@ public class Exam5 {
 		
 		
 		
-		int value1;
-		//System.out.println(value1); //오류 초기값없이 출력 불가능
-		
-		
-		int[] value2;
-		//System.out.println(value2); //오류 초기값없이 출력 불가능
-		
-		int value3 = 0;  //0으로 초기화하여 오류 미발생
-		System.out.println(value3);  
-		
-		int[] value4 = null;  // null로 초기화 하여 오류 미발생
-		System.out.println(value4);
-		
-		
-		
-		
-		boolean[] array1 = new boolean[3];   // boolean 은 false로 초기화
-		System.out.println(array1[0]);
-		System.out.println(array1[1]);
-		System.out.println(array1[2]);
-		
-		
-		System.out.println();
-		
-		
+//		int value1;
+//		//System.out.println(value1); //오류 초기값없이 출력 불가능
+//		
+//		
+//		int[] value2;
+//		//System.out.println(value2); //오류 초기값없이 출력 불가능
+//		
+//		int value3 = 0;  //0으로 초기화하여 오류 미발생
+//		System.out.println(value3);  
+//		
+//		int[] value4 = null;  // null로 초기화 하여 오류 미발생
+//		System.out.println(value4);
+//		
+//		
+//		
+//		
+//		boolean[] array1 = new boolean[3];   // boolean 은 false로 초기화
+//		System.out.println(array1[0]);
+//		System.out.println(array1[1]);
+//		System.out.println(array1[2]);
+//		
+//		
+//		System.out.println();
+//		
+//		
 		for(int i =0; i<3; i++) {
 			System.out.println(array1[i]);
 		}
 		
-		
-		System.out.println();
-		
-		
-		for(boolean j : array1) {
-			System.out.println(j);
-		}
-		
-		
-		
-		
-		
-		int[] array2 = new int[3];
-		for(int each : array2) {
-			System.out.println(each);
-		}
-		
-		
-		String[] array3 = new String[3];
-		for(String str : array3) {
-			System.out.println(str + " ");
-		}
-		
-		
-		
-		
+//		
+//		System.out.println();
+//		
+//		
+//		for(boolean j : array1) {
+//			System.out.println(j);
+//		}
+//		
+//		
+//		
+//		
+//		
+//		int[] array2 = new int[3];
+//		for(int each : array2) {
+//			System.out.println(each);
+//		}
+//		
+//		
+//		String[] array3 = new String[3];
+//		for(String str : array3) {
+//			System.out.println(str + " ");
+//		}
+//		
+//		
+//		
+//		
 		
 		
 		//배열 전체를 출력하는 간단방법 (*****)
