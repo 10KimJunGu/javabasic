@@ -59,6 +59,8 @@ public class Exam7 {
 		A a = new A();
 		클래스명 객체명 = new클래스명();
 		
+		String a = new String("something");
+		
 		
 		
 		

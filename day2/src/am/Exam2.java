@@ -26,16 +26,16 @@ public class Exam2 {
 		
 		
 //		int a = 3;                     // syso,sout + ctrl + spacebar
-//		int b = ++a;   // 먼저 증가시키고 b에 a로 들어간다 ( a값을 하나 증가시킨 후의 값을 b에 대입)
+//		int b = ++a;   // a값을 하나 증가시킨 후의 값을 b에 대입한다!!!
 //		System.out.println(a);   // 3? -> 4
 //		System.out.println(b);   // 4  -> 4
 //		
 //		System.out.println();
 //		
-//		int c = 3;
-//		int d = c++;    // 증가하기전에 c가 먼저 d에 들어가고나서 증가함 (증가하기전 값의 c가 먼저 d로 대입되고나서 c값이 하나증가)
-//		System.out.println(c);  // 4
-//		System.out.println(d);  // 3
+		int c = 3;
+		int d = c++;    // 증가하기전에 c가 먼저 d에 들어가고나서 증가함 (증가하기전 값의 c가 먼저 d로 대입되고나서 c값이 하나증가)
+		System.out.println(c);  // 4
+		System.out.println(d);  // 3
 		
 	
 		
@@ -77,7 +77,7 @@ public class Exam2 {
 //		
 		
 		
-		int score = 85;
+//		int score = 85;
 		//삼항연산자를 사용하여 90이상이면 A, 80 B, 70 C, 60 D 나머지 전부 F로 출력
 //		char credit = (score >= 90) ? 'A' : (score >=80) ? 'B' :(score >=70) ? 'C' : (score >= 60) ? 'D' : 'F';
 //		System.out.println(credit);
