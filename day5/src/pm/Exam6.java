@@ -5,9 +5,8 @@ public class Exam6 {
 	public static void main(String[] args) {
 
 		
-		//5개의 원소가 있는 1차원 배열의 모든 원소를 순서대로 출력하는 코드를 for-each문을 사용하여 작성하세요
-		
-//		int[]a = new int[]{1,2,3,4,5};
+		//5개의 원소가 있는 1차원 배열의 모든 원소를 순서대로 출력하는 코드를 for-each문을 사용하여 작성하세요		
+		//int[]a = new int[]{1,2,3,4,5};
 //		
 //		for(int each : a) {
 //			System.out.println(each);
@@ -60,7 +59,7 @@ public class Exam6 {
 		//답지
 		String str = "내 이름은 [홍길동]입니다. 나이는[15]살 입니다.";
 		
-		int name1 = str.indexOf('[')+1;
+		int name1 = str.indexOf('[')+1;  //홍 의 위치를 잡으려고 대괄호를 이용
 		System.out.println(name1);
 		
 		int age1 = str.lastIndexOf('[')+1;

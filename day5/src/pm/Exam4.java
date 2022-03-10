@@ -36,13 +36,13 @@ public class Exam4 {
 //		String str1 = new String("안녕");
 //		String str2 = str1;
 //		
-//		System.out.println(str1);
-//		System.out.println(str2);
+//		System.out.println(str1); //안녕
+//		System.out.println(str2); //안녕
 //		
 //		str1 = "안녕하세요";
 //		
-//		System.out.println(str1);
-//		System.out.println(str2);
+//		System.out.println(str1); // 안녕하세요
+//		System.out.println(str2); // 안녕
 		
 		
 		
@@ -51,16 +51,16 @@ public class Exam4 {
 //		int[] arr1 = new int[] {3,4,5};
 //		int[] arr2 = arr1;
 //		
-//		System.out.println(Arrays.toString(arr1));
-//		System.out.println(Arrays.toString(arr2));
+//		System.out.println(Arrays.toString(arr1)); //3,4,5
+//		System.out.println(Arrays.toString(arr2)); //3,4,5
 //		
 //		
 //		arr1[0] = 6;
 //		arr1[1] = 7;
 //		arr1[2] = 8;
 //		
-//		System.out.println(Arrays.toString(arr1));
-//		System.out.println(Arrays.toString(arr2));
+//		System.out.println(Arrays.toString(arr1)); // 6,7,8
+//		System.out.println(Arrays.toString(arr2)); // 6,7,8
 /*		
 		str1         100번지
 		|----------> "안녕"
@@ -79,7 +79,7 @@ public class Exam4 {
 	*/	
 		
 		
-		//----------------------------------------------------
+//-----------------------------------------------------------------------------------
 		
 		
 //		String str1 = new String("안녕");    //new 사용
@@ -104,20 +104,20 @@ public class Exam4 {
 		
 		
 		
-		String str1 = new String("안녕");
-		String str2 = "안녕";
-		String str3 = "안녕";
-		String str4 = new String("안녕");
-		
-		System.out.println(str1 == str2);
-		System.out.println(str2 == str3);
-		System.out.println(str3 == str4);
-		System.out.println(str4 == str1);
-		
-		System.out.println(System.identityHashCode(str1));
-		System.out.println(System.identityHashCode(str2));
-		System.out.println(System.identityHashCode(str3));
-		System.out.println(System.identityHashCode(str4));
+//		String str1 = new String("안녕");
+//		String str2 = "안녕";
+//		String str3 = "안녕";
+//		String str4 = new String("안녕");
+//		
+//		System.out.println(str1 == str2); //false
+//		System.out.println(str2 == str3); //true
+//		System.out.println(str3 == str4); //false
+//		System.out.println(str4 == str1); //false
+//
+//		System.out.println(System.identityHashCode(str1)); //366712642
+//		System.out.println(System.identityHashCode(str2)); //1829164700
+//		System.out.println(System.identityHashCode(str3)); //1829164700
+//		System.out.println(System.identityHashCode(str4)); //2018699554
 
 		
 		
