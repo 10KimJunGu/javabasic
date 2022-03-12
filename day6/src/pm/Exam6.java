@@ -23,7 +23,7 @@ public class Exam6 {
 //	public static void sum(int a, int b) {
 //		
 //	}
-//	public static void sum(int a, int b, int c) {
+//	public static void sum(int a, int b, int c) {    //귀찮으니까 이렇게 만들지말자
 //		
 //	}
 
@@ -37,9 +37,9 @@ public class Exam6 {
 		method2();
 		
 	}
-	
-	public static void method1(int...values) {
-		System.out.println("길이  : " + values.length);
+	                                                   //void이 있으면 return은 없다.
+	public static void method1(int...values) {         //static은 객체를 찍지않고도 서로 접근이 가능하다.
+		System.out.println("길이  : " + values.length);  // ...은 가변길이 메서드다.
 		
 		for(int each : values) {
 			System.out.print(each + " ");
@@ -57,9 +57,6 @@ public class Exam6 {
 		}
 		System.out.println();
 	}
-	
-	
-	
 	
 	
 }

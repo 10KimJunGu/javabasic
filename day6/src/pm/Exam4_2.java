@@ -20,26 +20,22 @@ public class Exam4_2 {
 		
 		
 		
-		
-		
-		
-		
 		//여러가지 형태의 반환타입
 		
-		// 1. input도 없고 return도 없다
+		// 1. input도 없   고 return도 없다
 		// void print(){
 		// System.out.println("HI");
-		// }   // 리턴타입이 void(리턴이 없다.)
+		// }   // 리턴타입이 void(리턴이 없다.), 인수도 없다.
 		
 		//2. input은 없고 return은 있다.
 		//int print(){
 		//	   return 0;
-		// }
+		// }   // 리턴타입이 void(리턴이 없다.), 인수도 없다.
 		
 		//3. input은 있고 return은 없다
 		// void print(String name){
 		//       System.out.println(name);
-		// } 
+		// }                                            //void가 있으면 항상 return은 없는 것이다.
 		
 		//4. input도 있고 return도 있다.
 		// String print(String name){
@@ -51,19 +47,19 @@ public class Exam4_2 {
 		//매소드를 사용하려면 먼저 객체를 생성해야 한다.
 		// A a = new A();
 		// a.method();
-		
+
 
 		C c = new C();
 		c.print();
+		
 		 int k = c.data();
 		 System.out.println(k);
-		 double vresult = c.sum(3,  5.2);
-//		 System.out.println(result);
+		 double result = c.sum(3,  5.2);
+		 System.out.println(result);
 		 c.printMonth(5);
 		 c.printMonth(13);
 		
-		
-		
+
 	}
 
 }
@@ -71,7 +67,7 @@ public class Exam4_2 {
 
 
 class C{
-	//no input no output
+	//no input no output                return이 없으면 output도 없다.
 	void print() {
 		System.out.println("안녕");
 	}
@@ -84,7 +80,7 @@ class C{
 	
 	// yes input yes output
 	double sum(int a, double b) {  //return 타입
-		return a + b;
+		return a + b;  // a+b의 결과가 double로 나간다.
 	}
 	
 	
@@ -97,19 +93,6 @@ class C{
 	}
 	
 	
-	
-	
-	
-	
 }
-
-
-
-
-
-
-
-
-
 
 
