@@ -8,13 +8,13 @@ public class Exam7_3 {
 		
 		X x = new X();
 		x.init(2,3);
-		System.out.println(x.m);
-		System.out.println(x.n);
+		System.out.println(x.m);  //0
+		System.out.println(x.n);  //0
 		
 		Y y = new Y();
 		y.init(2,3);
-		System.out.println(y.m);
-		System.out.println(y.n);
+		System.out.println(y.m);  //2
+		System.out.println(y.n);  //3
 
 		
 	}
@@ -36,7 +36,7 @@ class Y{
 	int m;
 	int n;
 	void init(int m, int n) {     //2,3
-		this.m = m;  // y.m = 2
+		this.m = m;  // y.m = 2     // this자리에는 호출한 객체명이 온다.
 		this.n = n;  // y.n = 3
 	}
 }
