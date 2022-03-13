@@ -23,15 +23,15 @@ public class Exam4_3 {
 
 	
 	public static void print() {    //1
-		System.out.println("안녕");
+		System.out.println("안녕");  //안녕
 	}
 	
 	public static int twice(int k) {    //2
-		return k*2;
+		return k*2;  //6
 	}
 	
 	public static double sum(int m, double n) {    //3
-		return m + n;
+		return m + n;  //11.8
 	}
 	
 	

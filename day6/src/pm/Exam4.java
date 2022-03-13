@@ -1,7 +1,7 @@
 //package pm;
-//
-//public class Exam4 {
 
+//public class Exam4 {
+////
 //	public static void main(String[] args) {
 		
 	
@@ -9,10 +9,10 @@
 		
 //		객체생성
 //		
-//		클래스명 개체명 = new 생성자();
+//		클래스명 객체명 = new 생성자();
 		
 //		
-//	A a - new A();
+//	A a = new A();
 //	
 //	a.m = 5;
 //	

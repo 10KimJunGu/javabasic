@@ -22,7 +22,7 @@ public class Exam4_2 {
 		
 		//여러가지 형태의 반환타입
 		
-		// 1. input도 없   고 return도 없다
+		// 1. input도 없 고 return도 없다
 		// void print(){
 		// System.out.println("HI");
 		// }   // 리턴타입이 void(리턴이 없다.), 인수도 없다.
