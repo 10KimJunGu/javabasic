@@ -51,7 +51,13 @@ public class Exam7 {
 		
 		
 		
+		int[] arr1 = {5,4,3,2,1};
+		int[] arr2= new int[arr1.length];
 		
+		for(int i = 0; i <arr1.length; i++) {
+			arr2[i] = 6 - arr1[i];
+		}
+		System.out.println(Arrays.toString(arr2));
 		
 		
 		

@@ -105,10 +105,10 @@ public class Exam5 {
 //		System.out.println();
 //		
 //		
-		for(int i =0; i<3; i++) {
-			System.out.println(array1[i]);
-		}
-		
+//		for(int i =0; i<3; i++) {
+//			System.out.println(array1[i]);
+//		}
+//		
 //		
 //		System.out.println();
 //		

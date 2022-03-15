@@ -8,8 +8,8 @@ public class Exam5 {
 //		
 //		printa(); // 인수가 없을때
 //		printb(3); // 인수가 1개인데 int형		
-////		printc(5.8); // 인수가 1개인데 double형		
-////		printd(2,5); // 인수가 2개일때
+//		printc(5.8); // 인수가 1개인데 double형		
+//		printd(2,5); // 인수가 2개일때
 //				
 		
 		

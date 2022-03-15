@@ -83,15 +83,15 @@ public class Exam4 {
 		
 		
 //		String str1 = new String("안녕");    //new 사용
-//		String str2 = "안녕";
+//		String str2 = "안녕";                //new 사용 안함
 //		String str3 = "안녕";                //new 사용 안함
 //		String str4 = new String("안녕");    //new 사용
-//		String str5 = "안녕";
+//		String str5 = "안녕";                //new 사용 안함
 		
 		
 /*
  		str1-----------> 100번지 "안녕"  //new 사용
-		str2 ----------> 200번지"안녕"
+		str2 ----------> 200번지"안녕"  //new 사용 안함
 		str3 ----------> 200번지"안녕"  //new 사용 안함
 		str5 ----------> 200번지"안녕"  //new 사용 안함
 		str4-----------> 400번지"안녕"  //new 사용

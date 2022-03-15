@@ -46,7 +46,7 @@ public class Exam7 {
 		클래스 밖에 올 수 있는 것은 package import 클래스선언
 		
 	
-		접근 지정자 public은 한개의 .java파일안에서 최대 1개의 플래스에만 붙일 수 있다.
+		접근 지정자 public은 한개의 .java파일안에서 최대 1개의 클래스에만 붙일 수 있다.
 		
 		객체object와 인스턴스instance의 차이점
 		객체라는 표현 인스턴스라는 표현은 같은 대상 가리킨다.
