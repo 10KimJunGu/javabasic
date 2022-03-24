@@ -46,6 +46,14 @@ public class Exam6 {
 
 데이터를 추가 또는 삭제할 때는  LinkedList가 빠르고 데이터를 찾을때는 ArrayList가 빠르다.
 
+           Array List          LinkedList
+추가 삭제                  느림                                        빠름
+검색                         빠름                                        느림
+
+
+0 1 2 3 4 5 6              0 1 2 3 4 5 6 7
+가 나 다 라 마 바 사              ->      가 나 다 라 마 바 사 
+
 
 
 */
